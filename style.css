@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #e0e0e0;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/*Home Page*/
+.nav-bar {
+  background-color: #333;
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  border-bottom: black solid 2px;
+  z-index: 1;
+  
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-top: 20px;
+}
+
+.nav-links a {
+  color: lightgray;
+  text-decoration: none;
+
+}
+
+.nav-links a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav-links h3 {
+  font-size: 28px;
+}
+
+.upper-content {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding-top: 120px;
+}
+
+.avatar img {
+  height: 150px;
+  width: 150px;
+  margin-top: 80px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 50px #333;
+}
+
+.main-section {
+  padding-top: 50px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 30px;
+  font-size: 24px;
+  
+  
+}
+
+.content-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+  border: 3px solid #333;
+  box-shadow: 5px 10px 20px #333;
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  background-color: #333;
+  position: relative;
+  margin-top: 80px;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-links a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.footer-links h3 {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: gray;
+  
+}
+
+/*Listings Page*/
+
+.listings-grid {
+  height: 100%;
+  width: 100%;
+  padding-top: 120px;
+  padding-left: 0px;
+  text-align: center;
+  padding-bottom: 200px;
+  padding-right: 0px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 10px;
+  
+}
+
+.current,
+.sold {
+  padding-bottom: 60px;
+  font-size: 36px;
+  padding-top: 60px;
+}
+
+.listings,
+.sold-listings {
+  text-decoration: underline;
+  
+}
+
+.listings img,
+.sold-listings img {
+  height: 200px;
+  width: 250px;
+  padding-top: 30px;
+  text-align: center;
+  transition: transform .2s;
+}
+
+.listings img:hover,
+.sold-listings img:hover {
+  transform: scale(1.3);
+}
+
+/*Contact Page*/
+
+.form-container {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-form {
+  padding-top: 200px;
+}
