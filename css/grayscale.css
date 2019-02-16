@@ -226,7 +226,7 @@
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
-  border: 0;
+  transition: all 0.4s;
 }
 
 .contact-section {
@@ -302,3 +302,4 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
