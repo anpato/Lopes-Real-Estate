@@ -178,6 +178,7 @@
 
 .projects-section {
   padding: 10rem 0;
+  text-align: center;
 }
 
 .projects-section .featured-text {
@@ -205,6 +206,13 @@
     border-width: .25rem;
     width: 30%;
   }
+}
+
+.projects-section .proj-img {
+  border-radius: 20%;
+  height: 90%;
+  width: 80%;
+  margin-top: 3%;
 }
 
 .signup-section {
