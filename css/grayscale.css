@@ -209,10 +209,14 @@
 }
 
 .projects-section .proj-img {
-  border-radius: 20%;
+  border-radius: 6%;
   height: 90%;
   width: 80%;
   margin-top: 3%;
+}
+
+.projects-section .img-fluid {
+  border-radius: 2% !important;
 }
 
 .signup-section {
