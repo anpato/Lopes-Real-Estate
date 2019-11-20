@@ -30,7 +30,7 @@
         "bootstrap": "^4.3.1",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
-        "sass": "^1.17.0"
+        "sass": "^1.23.7"
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
